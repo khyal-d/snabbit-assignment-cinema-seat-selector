@@ -2,6 +2,10 @@
 
 A cinema seat booking UI built with React + Vite + Tailwind.
 
+#VERCEL link
+
+https://snabbit-assignment-cinema-seat-sele.vercel.app/
+
 ## Features
 - Fetches “Now Playing” movies from TMDB
 - Movie selection page + seat selection page
@@ -20,3 +24,4 @@ A cinema seat booking UI built with React + Vite + Tailwind.
 ```bash
 npm install
 npm run dev
+
