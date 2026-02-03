@@ -24,11 +24,6 @@ https://drive.google.com/file/d/1S3WbGvohP5P4reCZNVSlESdBpeUVusyy/view?usp=shari
 - React Router DOM
 - TMDB API
 
-## Run locally
-```bash
-npm install
-npm run dev
-
 ## 🎟️ Seat Data Structure
 
 The seat selection system is designed to be simple, flexible, and easy to manage.
@@ -52,6 +47,12 @@ Example:
   number: 1,
   status: "available"
 }
+
+## Run locally
+```bash
+npm install
+npm run dev
+
 
 
 
