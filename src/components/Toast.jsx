@@ -1,42 +1,4 @@
 
-// import React from "react";
-
-// export default function Toast({ message, onClose }) {
-//   if (!message) return null;
-
-//   return (
-//     <div className="fixed inset-0 z-50 flex items-center justify-center">
-//       {/* Backdrop */}
-//       <div
-//         className="absolute inset-0 bg-black/30"
-//         onClick={onClose}
-//       />
-
-//       {/* Toast card */}
-//       <div className="relative w-[min(92vw,420px)] rounded-2xl border border-pink-200 bg-pink-50 px-5 py-4 shadow-xl">
-//         <div className="flex items-start justify-between gap-3">
-//           <div>
-//             <div className="text-sm font-semibold text-pink-900">
-//               Booking Confirmed 🎉
-//             </div>
-//             <div className="mt-1 text-sm text-pink-800">
-//               {message}
-//             </div>
-//           </div>
-
-//           <button
-//             type="button"
-//             onClick={onClose}
-//             className="rounded-lg px-2 py-1 text-xs font-semibold text-pink-900 hover:bg-pink-100"
-//           >
-//             Close
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 import React, { useEffect } from "react";
 
 export default function Toast({ message, onClose }) {
