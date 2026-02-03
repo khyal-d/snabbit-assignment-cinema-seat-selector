@@ -47,12 +47,12 @@ Example:
   number: 1,
   status: "available"
 }
-
+```
 ## Run locally
 ```bash
 npm install
 npm run dev
-
+```
 
 
 
