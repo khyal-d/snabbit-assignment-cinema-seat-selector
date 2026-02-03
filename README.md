@@ -41,14 +41,14 @@ Example:
   status: "available"
 }
 
-## Tech
+#### Tech
 - React
 - Vite
 - Tailwind CSS
 - React Router DOM
 - TMDB API
 
-## Run locally
+#### Run locally
 ```bash
 npm install
 npm run dev
