@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --snabbit-maroon: #7a1f3d; /* maroon / wine like "Services" */
+}
+
+.snabbit-text {
+  color: var(--snabbit-maroon);
+}
+
+
+@keyframes toast-reverse {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.animate-toast-reverse {
+  animation: toast-reverse 5s linear forwards;
+}
